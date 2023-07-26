@@ -1,0 +1,38 @@
+/*style sheet for recipe site*/
+
+* {
+    background-color: antiquewhite;
+}
+
+.header,
+.list {
+    font: "times new roman", sans-serif;
+    font-size: 25px;
+    color: #000;
+}
+
+.list .link {
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+}
+
+.list 
+.link:active {
+    background-color: antiquewhite;
+    text-decoration: none;
+    color: #000;
+}
+
+.image {
+    width: 400px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.card {
+    border-radius: 3%;
+    border: solid;
+    padding: 8%;
+    border-style: dashed;
+}
